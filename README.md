@@ -15,6 +15,13 @@
 ## Disabling ICMP Timestamp
 ```/etc/ufw/before.rules``` - ICMP rules (change ACCEPT to DROP) or totally remove them
 
+## How to get A+ grade on SSL Labs tool
+- https://community.letsencrypt.org/t/howto-a-with-all-100-s-on-ssl-labs-test-using-apache2-4-read-warnings/2436
+
+## Tools
+- https://www.ssllabs.com/ssltest/analyze.html
+- https://www.htbridge.com/websec/
+
 ## Other notes
 1. Disable (the best all) 3rd party scripts on pages with sensitive param in the URL to prevent Cross-domain Referer Leakage.
 2. Cookies always with HttpOnly and Secure flags.

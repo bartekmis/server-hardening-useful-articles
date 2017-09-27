@@ -1,4 +1,4 @@
-# Useful articles to make a good server hardening
+# Useful articles and rules to make a good server hardening and improve web application security
 ## Public Key Pinning
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning
 - https://raymii.org/s/articles/HTTP_Public_Key_Pinning_Extension_HPKP.html

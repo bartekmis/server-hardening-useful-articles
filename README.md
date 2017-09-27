@@ -1,4 +1,5 @@
-# Useful articles and rules to make a good server hardening and improve web application security
+# Useful links with explanations on server hardening to improve your web application security
+
 ## Public Key Pinning
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning
 - https://raymii.org/s/articles/HTTP_Public_Key_Pinning_Extension_HPKP.html
@@ -13,7 +14,7 @@
 - https://developer.ibm.com/answers/questions/187318/faq-how-do-i-disable-cipher-block-chaining-cbc-mod.html
 
 ## Disabling ICMP Timestamp
-```/etc/ufw/before.rules``` - ICMP rules (change ACCEPT to DROP) or totally remove them
+```/etc/ufw/before.rules``` - ICMP rules (change ACCEPT to DROP) or totally remove them [Ubuntu]
 
 ## How to get A+ grade on SSL Labs tool
 - https://community.letsencrypt.org/t/howto-a-with-all-100-s-on-ssl-labs-test-using-apache2-4-read-warnings/2436
@@ -26,3 +27,6 @@
 1. Disable (the best all) 3rd party scripts on pages with sensitive param in the URL to prevent Cross-domain Referer Leakage.
 2. Cookies always with HttpOnly and Secure flags.
 3. Always change cookie session name per project.
+
+---
+We follow the advice given in the above articles at [Bigger Picture](https://www.biggerpicture.agency) to achieve A+ security ratings from HT Bridge and the other one.
